@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/StickDude.png-830e08483e5d201b260a1c906a217859.stex"
+path="res://.import/StickDude.png-0bf202099a5d2ccb2c18738656e43dce.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/StickDude.png"
-dest_files=[ "res://.import/StickDude.png-830e08483e5d201b260a1c906a217859.stex" ]
+source_file="res://Player/StickDude.png"
+dest_files=[ "res://.import/StickDude.png-0bf202099a5d2ccb2c18738656e43dce.stex" ]
 
 [params]
 

@@ -1,8 +1,8 @@
 [gd_scene load_steps=6 format=2]
 
-[ext_resource path="res://Assets/Sprites/StickDude.png" type="Texture" id=1]
-[ext_resource path="res://Assets/Sprites/BadDude.png" type="Texture" id=2]
-[ext_resource path="res://PlayerController.gd" type="Script" id=3]
+[ext_resource path="res://Player/StickDude.png" type="Texture" id=1]
+[ext_resource path="res://BadDude/BadDude.png" type="Texture" id=2]
+[ext_resource path="res://Player/PlayerController.gd" type="Script" id=3]
 [ext_resource path="res://TileSet.tres" type="TileSet" id=5]
 
 [sub_resource type="RectangleShape2D" id=1]

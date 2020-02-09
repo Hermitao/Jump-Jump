@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/BadDude.png-9a055e8fe7e89763b32feeea6fd8314d.stex"
+path="res://.import/BadDude.png-2f6f367657b68289f7cb4ca9d9f89c13.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/BadDude.png"
-dest_files=[ "res://.import/BadDude.png-9a055e8fe7e89763b32feeea6fd8314d.stex" ]
+source_file="res://BadDude/BadDude.png"
+dest_files=[ "res://.import/BadDude.png-2f6f367657b68289f7cb4ca9d9f89c13.stex" ]
 
 [params]
 

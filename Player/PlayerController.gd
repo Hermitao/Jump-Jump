@@ -14,11 +14,9 @@ func get_input():
 
 	var left = Input.is_action_pressed('left')
 	var right = Input.is_action_pressed('right')
-	var jump = Input.is_action_pressed('jump')
-
+	var jump = Input.is_action_just_pressed('jump')
 	
-	if (is_on_floor() and Input.is_action_just_released("jump")):
-		print("My ass")
+	if (is_on_floor() and jump):
 		velocity.y = -jumpSpeed
 	if (left):
 		velocity.x -= speed
@@ -31,5 +29,4 @@ func _physics_process(delta):
 
 	get_input()
 
-	if (!is_on_floor()):
-		velocity += GRAVITY_VECTOR * delta
+	velocity += GRAVITY_VECTOR * delta
